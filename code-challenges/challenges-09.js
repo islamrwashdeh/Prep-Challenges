@@ -17,14 +17,16 @@
 //  Output:
 //  [30, 64, 99, 51]
 //  
-
 const arrInc = (arr) => {
     let result = [];
     // write your code here
-    arr.forEach(element => {
-        result.push(element+10);
+
+    arr.forEach(element => {result.push(element+10)});
     return result;
+
 }
+
+
 // -------------------------------------------------------------------------------------------------------
 
 
@@ -39,13 +41,16 @@ const arrInc = (arr) => {
 //  Output:
 //  [5, 6, 7, 7]
 // 
- const roundDecimals = (arr) => {
+
+const roundDecimals = (arr) => {
     // write your code here
-    arr.forEach((element,i)=>{
-        arr[i]=Math.round(element);
-        })
-        return arr;
+
+    let result=[];
+    arr.forEach(element => {result.push(Math.round(element))});
+    return result;
+
 }
+
 // -------------------------------------------------------------------------------------------------------
 
 // -------------------------------------------------------------------------------------------------------
