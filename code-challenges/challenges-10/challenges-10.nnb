@@ -8,6 +8,7 @@
             "outputs": []
         },
         {
+ exercise17
             "language": "javascript",
             "source": [
                 ""
@@ -15,6 +16,8 @@
             "outputs": []
         },
         {
+
+ main
             "language": "markdown",
             "source": [
                 "### **Required**:"
@@ -31,7 +34,11 @@
         {
             "language": "javascript",
             "source": [
+exercise17
                 ""
+=======
+                "function birthdayCakeCandles(arr) {\n \n    let max = 0;\n    let counter = 0;\n\n  \n    arr.forEach(item => {\n       \n        if (item > max) {\n          \n            max = item;\n            counter = 1;\n           \n        } else if (item === max) {\n            counter++;\n        }\n    });\n\n    return counter;\n}"
+main
             ],
             "outputs": []
         },
